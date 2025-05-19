@@ -11,7 +11,6 @@ parallel-jobs = 1
 
 [YouTube]
 enabled = true
-build-mode = "both"
 module-prop-name = "youtube-E85"
 patches-source = "E85Addict/revanced-patches"
 excluded-patches = ""
@@ -24,7 +23,6 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music]
 enabled = true
-build-mode = "both"
 module-prop-name = "music-E85"
 arch = "arm64-v8a"
 patches-source = "E85Addict/revanced-patches"
@@ -34,7 +32,6 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [Spotify]
 enabled = true
-build-mode = "both"
 version = "auto"
 archive-dlurl = "https://archive.org/download/e85-apks/apks/com.spotify.music"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
@@ -46,7 +43,6 @@ app-name = "Music"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
 module-prop-name = "music-E85"
 arch = "arm64-v8a"
 included-patches = "'Custom header for YouTube Music'"
@@ -60,7 +56,6 @@ app-name = "YouTube"
 patches-source = "inotia00/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "ReVanced Extended"
-build-mode = "both"
 module-prop-name = "youtube-E85"
 included-patches = "'Custom header for YouTube'"
 patcher-args = "--legacy-options options.json"
@@ -80,26 +75,8 @@ build-mode = "apk"
 dpi = "120-640dpi"
 # archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
 
-[YouTube-Custom]
-enabled = true
-exclusive-patches = true
-module-prop-name = "youtube-E85"
-build-mode = "module"
-patches-source = "E85Addict/revanced-patches"
-included-patches = """\
-    'Custom branding' 'Change header' 'Disable precise seeking gesture' 'Remove background playback restrictions' \
-    'Seekbar tapping' 'Video ads' 'Hide ads' 'Enable tablet layout' 'Restore old video quality menu' 'Seekbar thumbnails' \
-    'Return YouTube Dislike' 'Miniplayer' 'Theme' 'SponsorBlock' \
-    """
-patcher-args = ""
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
-uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-# archive-dlurl = "https://archive.org/download/e85-apks/apks/com.google.android.youtube"
-
 [Telegram]
 enabled = true
-build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://telegram.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/telegram-fz-llc/telegram/"
@@ -107,9 +84,7 @@ version = "auto"
 
 [Instagram]
 enabled = true
-build-mode = "both"
 patches-source = "Aunali321/ReVancedExperiments"
 uptodown-dlurl = "https://instagram.en.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/instagram/instagram-instagram/"
-version = "368.0.0.45.96"
-arch = "arm64-v8a"  
+version = "368.0.0.49.84"
