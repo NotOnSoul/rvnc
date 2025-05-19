@@ -1,4 +1,5 @@
-Reddit: 2024.17.0  
+Instagram: 368.0.0.45.96  
+Spotify: 9.0.44.471  
 YouTube: 20.12.46  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
