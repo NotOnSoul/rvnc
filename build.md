@@ -1,5 +1,6 @@
 Music: 8.05.51  
 Music-Extended: 8.12.53  
+Spotify: 9.0.44.471  
 Telegram: 11.11.1  
 YouTube: 20.12.46  
 YouTube-Extended: 19.47.53  
@@ -18,7 +19,7 @@ Patches: E85Addict/patches-5.23.0.rvp
 
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 Patches: inotia00/patches-5.6.2.rvp  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.6.2)  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.6.2)
 
-Skipped:  
-Patches: ReVanced/patches-5.23.0.rvp    
+Patches: ReVanced/patches-5.23.0.rvp  
+[Changelog](https://github.com/ReVanced/revanced-patches/releases/tag/v5.23.0)  
