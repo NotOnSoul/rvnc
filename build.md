@@ -1,6 +1,6 @@
 Music: 8.05.51  
 Music-Extended: 8.12.53  
-Spotify: 9.0.44.471  
+Spotify: 9.0.46.496  
 Telegram: 11.11.1  
 YouTube: 20.12.46  
 YouTube-Extended: 19.47.53  
