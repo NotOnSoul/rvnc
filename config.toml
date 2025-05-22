@@ -33,7 +33,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 [Spotify]
 enabled = true
 version = "auto"
-archive-dlurl = "https://archive.org/download/e85-apks/apks/com.spotify.music"
+#archive-dlurl = "https://archive.org/download/e85-apks/apks/com.spotify.music"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 # dont build on gh actions (https://github.com/j-hc/revanced-magisk-module/issues/554)
